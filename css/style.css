@@ -60,6 +60,25 @@ hr {
   background-color: currentColor;
   border: 0;
   opacity: 0.25; }
+.custom-send-button {
+        background-color: #28a745; /* Green background */
+        color: white; /* White text */
+        padding: 15px 30px; /* Larger padding for a bigger button */
+        font-size: 18px; /* Increase font size */
+        border: none; /* Remove default border */
+        border-radius: 50px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        width: 100%; /* Make the button full width */
+        margin-top: 20px; /* Add some margin on top */
+    }
+
+    .custom-send-button:hover {
+        background-color: #ffffff; /* Darker green on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+        color: #000;
+    }
 
 hr:not([size]) {
   height: 1px; }
